@@ -29,7 +29,13 @@
         # Constructor 0 parámetros
         public function __construct0(){}
 
-        # Constructor 01 parámetros
+        # Constructor 02 parámetros
+        public function __construct2($user_id,$user_pass){
+            $this->user_id = $user_id;
+            $this->user_pass = $user_pass;
+        }
+
+        # Constructor 07 parámetros
         public function __construct7($user_id,$user_name,$user_address,$user_category,$user_phone,$user_pass,$user_status){
             $this->user_id = $user_id;            
             $this->user_name = $user_name;            
